@@ -1,0 +1,220 @@
+{
+  "orderId": "string",
+  "orderBeginDateTime": "2017-06-28T19:32:44Z",
+  "loyaltyBarcode": "string",
+  "roundingPrecision": 2,
+  "checkDetails": {
+    "checkId": "string",
+    "siteId": "string",
+    "dateOfBusiness": "2017-06-28",
+    "trainingMode": false,
+    "cashierID": "String",
+    "deviceGroup": "String",
+    "pumpId": "String",
+    "tillId": "String"
+  },
+  "appliedRewards": [],
+  "items": [],
+  "returnItems": [
+    {
+      "sequenceId": 0,
+      "itemCode": "string",
+      "itemName": "string",
+      "catalogItemCode": "String",
+      "quantity": {
+        "units": 0,
+        "unitType": "GRAMS"
+      },
+      "unitPrice": 0,
+      "discountable": false,
+      "considerForOrderLevelRewards": false,
+      "returnedLoyalties": [
+        {
+          "promotionId": "string",
+          "alternatePromotionId": "string",
+          "description": [],
+          "programId": 0,
+          "programType": "POINTS",
+          "itemQuantity": 0,
+          "units": 0,
+          "expiration": "2017-06-28T19:32:44Z",
+          "matchNetUnitPrice": 0,
+          "subSequenceIds": [
+            12.6
+          ],
+          "amount": 5.15
+        }
+      ],
+      "adjustments": [
+        {
+          "getReturnsProrations": true,
+          "calculationType": "CENTS_OFF",
+          "adjustmentValue": 0,
+          "appliesToNonDiscountableItems": false,
+          "rewardCalculationType": "DEFAULT",
+          "fundingDepartmentId": "0",
+          "priority": 0,
+          "label": "String",
+          "type": "PROMOTIONAL_DISCOUNT",
+          "sequenceId": 0,
+          "quantity": {
+            "units": 0,
+            "unitType": "GRAMS"
+          },
+          "itemPriceToMatch": 0,
+          "promotionId": "string",
+          "alternatePromotionId": "string"
+        }
+      ]
+    }
+  ],
+  "coupons": [
+    {
+      "sequenceId": 0,
+      "couponCode": "string",
+      "couponType": "TRIGGER_CODE",
+      "numberOfUses": 1,
+      "rewardMultiplier": 1,
+      "couponAdjustment": {
+        "getReturnsProrations": true,
+        "calculationType": "CENTS_OFF",
+        "adjustmentValue": 0,
+        "appliesToNonDiscountableItems": false,
+        "rewardCalculationType": "DEFAULT",
+        "fundingDepartmentId": "0",
+        "priority": 0,
+        "label": "String",
+        "itemSequenceId": 0,
+        "adjustmentLevel": "ITEM_LEVEL",
+        "itemPriceToMatch": 0,
+        "quantityLimit": {
+          "units": 0,
+          "unitType": "GRAMS"
+        },
+        "returned": false
+      },
+      "skipValidation": false
+    }
+  ],
+  "consumerIds": [
+    {
+      "identifierStatus": "ACTIVE",
+      "consumerStatus": "ACTIVE",
+      "firstName": "John",
+      "lastName": "Doe",
+      "internalId": "string",
+      "programBalances": [
+        {
+          "programId": 0,
+          "programType": "POINTS",
+          "programName": "Program Name",
+          "localizedProgramName": [
+            {
+              "locale": "en-us",
+              "value": "String"
+            }
+          ],
+          "openingBalance": 0,
+          "closingBalance": 0,
+          "earnedPoints": 0,
+          "burnedPoints": 0,
+          "programTier": {
+            "tierName": "String",
+            "pointsToNextTier": 80.75,
+            "media": "String",
+            "message": "String",
+            "localizedMessage": [
+              {
+                "locale": "en-us",
+                "value": "String"
+              }
+            ]
+          }
+        }
+      ],
+      "identifier": "john.doe@somewhere.com",
+      "type": "LOYALTY_ID",
+      "otherType": "string",
+      "entryMethod": "SWIPE"
+    }
+  ],
+  "shipping": {
+    "sequenceId": 0,
+    "type": "FLAT_RATE",
+    "price": 0
+  },
+  "redeemLoyalty": [
+    {
+      "promotionId": "string",
+      "alternatePromotionId": "string",
+      "description": [],
+      "programId": 0,
+      "programType": "POINTS",
+      "amount": 0,
+      "sequenceId": 0
+    }
+  ],
+  "tenders": [
+    {
+      "sequenceId": 0,
+      "tenderType": "CASH",
+      "tenderSubType": "VISA",
+      "otherTenderType": "string",
+      "otherSubTenderType": "string",
+      "amount": 0,
+      "issuerIDNumber": "String"
+    }
+  ],
+  "orderLevelAdjustments": [
+    {
+      "getReturnsProrations": true,
+      "calculationType": "CENTS_OFF",
+      "adjustmentValue": 0,
+      "appliesToNonDiscountableItems": false,
+      "rewardCalculationType": "DEFAULT",
+      "fundingDepartmentId": "0",
+      "priority": 0,
+      "label": "String",
+      "returned": false,
+      "type": "PROMOTIONAL_DISCOUNT",
+      "sequenceId": 0,
+      "promotionId": "string",
+      "alternatePromotionId": "string"
+    }
+  ],
+  "orderTotals": [
+    {
+      "value": 100.08,
+      "type": "TAX_INCLUDED"
+    }
+  ],
+  "rewardApprovals": [
+    {
+      "promotionId": "string",
+      "alternatePromotionId": "string",
+      "sequenceId": 0,
+      "approvalFlag": "APPROVE",
+      "quantity": 0
+    }
+  ],
+  "totals": false,
+  "channelType": "POS",
+  "transactionOrigin": "POS",
+  "payment": "COLLECTED",
+  "transactionType": "PREPAY",
+  "dynamicAttributes": [],
+  "prompts": [
+    {
+      "promptId": "String",
+      "selectedOptions": [
+        "String"
+      ],
+      "booleanResponse": false,
+      "freeTextResponse": "String",
+      "numericResponse": 65.55
+    }
+  ],
+  "revenueCenterId": "String",
+  "orderMode": "DINE_IN",
+  "orderModeId": "1"
+}
