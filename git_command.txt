@@ -16,9 +16,15 @@ git push -u origin main
 
 
 $ git  branch -a
+git branch -
 
 
-git checkout - 
+create new branch 
+git branch  "dec13-branch"
+checkout new branch
+git checkout  "dec13-branch"
+git commit -m 'adding addional commands'  
+
 
 
 
