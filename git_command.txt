@@ -28,7 +28,8 @@ git commit -m 'adding addional commands'
 git status
 git push -u origin dec13-branch 
 
-
+###deleting old branch 
+   git branch -d dec13-branch 
 
 
 git pull   changes  made from outside 
