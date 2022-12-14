@@ -26,6 +26,7 @@ create new branch :
 
 git commit -m 'adding addional commands'  
 git status
+git push -u origin dec13-branch 
 
 
 
